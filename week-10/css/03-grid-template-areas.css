@@ -1,5 +1,29 @@
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 100px 300px;
+  grid-gap: 20px;
+  grid-template-areas:
+  "masthead masthead"
+  "article sidebar"
+  "footer sidebar";
+}
 
+#masthead {
+  grid-area: masthead;
+}
 
+#sidebar {
+  grid-area: sidebar;
+}
+
+#article {
+  grid-area: article;
+}
+
+#footer {
+  grid-area: footer;
+}
 
 /* Write your styles above this line! 👆👆👆 */
 
