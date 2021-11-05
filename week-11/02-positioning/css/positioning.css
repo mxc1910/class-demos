@@ -2,6 +2,7 @@ main {
   border: 2px dashed #222;
   width: 800px;
   min-height: 500px;
+  position: relative;
 }
 
 #red,
@@ -14,12 +15,15 @@ main {
 
 #red {
   border-color: rgb(255,0,0);
-  background-color: rgba(255,0,0,0.5);
+  background-color: rgba(255,0,0);
 }
 
 #yellow {
   border-color: rgb(249,211,87);
-  background-color: rgba(249,211,87,0.5);
+  background-color: rgba(249,211,87);
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 #blue {

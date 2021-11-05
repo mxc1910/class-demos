@@ -3,6 +3,10 @@ body {
   line-height: 1.5;
 }
 
+
+
 nav {
   background-color: #ddd;
+  position: sticky;
+  top: 20px;
 }
